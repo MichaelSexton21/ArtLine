@@ -4,6 +4,7 @@ This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by M
 
 This project uses deep learning to create line art pictures. The original readme has been renamed to README_old.md and contains all of the deserved credit and acknowledgments.
 
+## Model Download Links
 Because the origional repository was not initalized with Github's Large File Storage I cannot add that funcitonality after I forked the repository so I have linked the two pretrained models here:
 
 **650 Pixel Output Model:** https://www.dropbox.com/s/starqc9qd2e1lg1/ArtLine_650.pkl?dl=1
