@@ -4,7 +4,7 @@ This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by M
 
 The original readme has been renamed to README_old.md and still contains all of the deserved credit and acknowledgments.
 
-This project uses deep learning to create line are pictures. 
+This project uses deep learning to create line art pictures. 
 
 
 ## Example Images
