@@ -6,9 +6,9 @@ This project uses deep learning to create line art pictures. The original readme
 
 Because the origional repository was not initalized with Github's Large File Storage I cannot add that funcitonality after I forked the repository so I have linked the two pretrained models here:
 
-**650 Pixel Output Model:** https://drive.google.com/file/d/16biO-iTNoaert-pfX1av0bqOh_KPRCue/view?usp=sharing
+**650 Pixel Output Model:** https://www.dropbox.com/s/starqc9qd2e1lg1/ArtLine_650.pkl?dl=1
 
-**920 Pixel Output Model:** https://drive.google.com/file/d/1ZOs6iAudkO88OCnP2eWiZaw0vnT1hQyE/view?usp=sharing
+**920 Pixel Output Model:** https://www.dropbox.com/s/04suaimdpru76h3/ArtLine_920.pkl?dl=1
 
 ## Example Images
 
