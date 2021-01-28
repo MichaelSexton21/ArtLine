@@ -2,7 +2,7 @@
 
 This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by Michael Sexton (MichaelSexton21) to be compatable with Code Ocean's App Panel Feature (https://codeocean.com/).
 
-This project uses deep learning to create line art pictures. The original readme has been renamed to README_old.md and still contains all of the deserved credit and acknowledgments.
+This project uses deep learning to create line art pictures. The original readme has been renamed to README_old.md and contains all of the deserved credit and acknowledgments.
 
 Because the origional repository was not initalized with Github's Large File Storage I cannot add that funcitonality after I forked the repository so I have linked the two pretrained models here:
 
