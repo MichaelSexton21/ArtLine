@@ -1,10 +1,25 @@
 # ArtLine
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
-This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by Michael Sexton (MichaelSexton21) to work with Code Ocean (https://codeocean.com/).
 
-The original readme has been renamed to README_old.md and still contains all of the deserved credit and acknowledgments.
+The main aim of the project is to create amazing line art portraits. 
 
-This project uses deep learning to create line are pictures. 
+**Sounds Intresting,let's get to the pictures!!**
+
+**Click on the below image to know more about colab demo, credits to Bhavesh Bhatt for the amazing Youtube video.**
+
+[![](https://i.imgur.com/ittgYum.png)](https://www.youtube.com/watch?v=ULqlp6Btk2w&t=324s)
+
+# Exciting update
+
+* Check Toon-Me https://github.com/vijishmadhavan/Toon-Me, Toon Portraits.
+
+## Highlights
+
+- [Example Images](#Example-Images)
+- [Cartoonize](#Cartoonize)
+- [Movie Poster created using ArtLine](#Movie-Poster-created-using-ArtLine)
+- [Technical Details](#Technical-Details)
 
 
 ## Example Images
@@ -60,9 +75,13 @@ Beyoncé, American singer
 
 ![Beyoncé](https://i.imgur.com/QalvHKS.jpg)
 
+Photo by Tim Savage from Pexels
+
+![Imgur](https://i.imgur.com/NTi2GRA.jpg)
+
 ## Cartoonize
 
-**Lets cartoonize the lineart portraits, its still in the making but have a look at some pretty pictures.**
+**Lets cartoonize the lineart portraits, Check Toon-Me https://github.com/vijishmadhavan/Toon-Me.**
 
 Skrillex , American DJ
 
