@@ -1,11 +1,15 @@
 # ArtLine
 
-This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by Michael Sexton (MichaelSexton21) to work with Code Ocean (https://codeocean.com/).
+This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by Michael Sexton (MichaelSexton21) to be compatable with Code Ocean's App Panel Feature (https://codeocean.com/).
 
 The original readme has been renamed to README_old.md and still contains all of the deserved credit and acknowledgments.
 
 This project uses deep learning to create line art pictures. 
 
+Because the origional repository was not initalized with Github's Large File Storage I cannot add that funcitonality after I forked the repository so I have linked the two pretrained models here:
+
+650 Pixel Output: https://drive.google.com/file/d/16biO-iTNoaert-pfX1av0bqOh_KPRCue/view?usp=sharing
+920 Pixel Output: https://drive.google.com/file/d/1ZOs6iAudkO88OCnP2eWiZaw0vnT1hQyE/view?usp=sharing
 
 ## Example Images
 
