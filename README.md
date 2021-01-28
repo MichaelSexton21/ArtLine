@@ -10,6 +10,13 @@ Because the origional repository was not initalized with Github's Large File Sto
 
 **920 Pixel Output Model:** https://www.dropbox.com/s/04suaimdpru76h3/ArtLine_920.pkl?dl=1
 
+**App Panel Setup**
+You will need two inputs:
+* File Input: Image File Path (default: what every image you want)
+* List Input: Output Image Size (920 or 650)
+
+
+
 ## Example Images
 
 bohemian rhapsody movie , Rami Malek American actor
