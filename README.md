@@ -10,9 +10,8 @@ This project uses deep learning to create line art pictures. The original readme
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
 * Set Artline.py to run
-* If you are on Saas, skip the next step and go to the downloading the models step
 * Open up the App Panel tab, you will need two inputs:
-  * File Input: Image File Path (default: what ever you want)
+  * File Input: Image File Path (default: lion.png)
   * List Input: Output Image Size (920 or 650) I recommend 650 so it runs faster
 * Use the two links below to download the models for 650 and 920 models to the code folder
   * I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
