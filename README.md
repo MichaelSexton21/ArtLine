@@ -4,6 +4,22 @@ This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by M
 
 This project uses deep learning to create line art pictures. The original readme has been renamed to README_old.md and contains all of the deserved credit and acknowledgments.
 
+## Code Ocean Setup
+* Git clone this repository into a Capsule
+* Select the Python 3.7 Environment
+* Move all the files except this file (README.md) into the code folder
+* Use the environment_requirements.txt file to build the environment
+* Set Artline_App_Panel.py to run
+* Open up the App Panel tab, you will need two inputs:
+** File Input: Image File Path (default: what ever you want)
+** List Input: Output Image Size (920 or 650) I recommend 650 so it runs faster
+* Use the two links below to download the models for 650 and 920 models to the code folder
+** I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
+** You may need to change the permission of the file to be able to run it using the command: chmod +755 download_models.sh
+* Create an Image folder within the Data folder and place what ever image you like
+* Use the app panel to specifiy your desired settings and press "Run with parameters" to begin
+
+
 ## Model Download Links
 Because the origional repository was not initalized with Github's Large File Storage I cannot add that funcitonality after I forked the repository so I have linked the two pretrained models here:
 
