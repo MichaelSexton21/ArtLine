@@ -6,7 +6,7 @@ This project uses deep learning to create line art pictures. The original readme
 
 ## Code Ocean Setup VPC
 * Git clone this repository into a Capsule
-* Select the most up to date Python Environment (3.7 or 3.8)
+* Select the "Python (3.7.3, miniconda 4.7.10)" environment
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
 * Set Artline.py to run
