@@ -37,7 +37,7 @@ This project uses deep learning to create line art pictures. The original readme
 * Add command line arguments to the run command
      * First specify the relative path to the image from the code folder
      * Next specify the size of the output you want (650 or 920)
-     * Example: python -u Artline_App_Panel.py "../data/images/lion.jpg" 650
+     * Example: python -u Artline.py "../data/images/lion.jpg" 650
 * Click "Reproducible Run"
 
 
