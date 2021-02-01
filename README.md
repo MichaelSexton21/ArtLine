@@ -4,12 +4,13 @@ This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by M
 
 This project uses deep learning to create line art pictures. The original readme has been renamed to README_old.md and contains all of the deserved credit and acknowledgments.
 
-## Code Ocean Setup
+## Code Ocean Setup VPC
 * Git clone this repository into a Capsule
-* Select the Python 3.7 Environment
+* Select the most up to date Python Environment (3.7 or 3.8)
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
 * Set Artline_App_Panel.py to run
+* If you are on Saas, skip the next step and go to the downloading the models step
 * Open up the App Panel tab, you will need two inputs:
   * File Input: Image File Path (default: what ever you want)
   * List Input: Output Image Size (920 or 650) I recommend 650 so it runs faster
@@ -17,7 +18,29 @@ This project uses deep learning to create line art pictures. The original readme
   * I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
   * You may need to change the permission of the file to be able to run it using the command: chmod +755 download_models.sh
 * Create an Image folder within the Data folder and place what ever image you like
-* Use the app panel to specifiy your desired settings and press "Run with parameters" to begin
+* Run the project
+  * App Panel: specifiy your desired settings and press "Run with parameters" to begin
+  * Add command line arguments to the run command
+     * First specify the relative path to the image from the code folder
+     * Next specify the size of the output you want (650 or 920)
+     * Example: python -u Artline_App_Panel.py "../data/images/lion.jpg" 650
+     
+## Code Ocean Setup SaaS
+* Git clone this repository into a Capsule
+* Select the Python (3.8.1, miniconda 4.8.2) environment
+* Move all the files except this file (README.md) into the code folder
+* Use the environment_requirements.txt file to build the environment
+* Set Artline_App_Panel.py to run
+* Use the two links below to download the models for 650 and 920 models to the code folder
+  * I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
+  * You may need to change the permission of the file to be able to run it using the command: chmod +755 download_models.sh
+* Create an Image folder within the Data folder and place what ever image you like
+* Run the project
+  * App Panel: specifiy your desired settings and press "Run with parameters" to begin
+  * Add command line arguments to the run command
+     * First specify the relative path to the image from the code folder
+     * Next specify the size of the output you want (650 or 920)
+     * Example: python -u Artline_App_Panel.py "../data/images/lion.jpg" 650
 
 
 ## Model Download Links
