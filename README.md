@@ -16,7 +16,9 @@ This project uses deep learning to create line art pictures. The original readme
   * List Input: Output Image Size (920 or 650) I recommend 650 so it runs faster
 * Use the two links below to download the models for 650 and 920 models to the code folder
   * I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
-  * You may need to change the permission of the file to be able to run it using the command: chmod +755 download_models.sh
+  * You may need to change the permission of the file to be able to run it using the commands:
+     * chmod +755 download_models.sh
+     * ./download_models.sh
 * Create an Image folder within the Data folder and place what ever image you like
 * Run the project by specifiy your desired settings in the App Panel and press "Run with parameters" to begin
      
@@ -28,7 +30,9 @@ This project uses deep learning to create line art pictures. The original readme
 * Set Artline.py to run
 * Use the two links below to download the models for 650 and 920 models to the code folder
   * I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
-  * You may need to change the permission of the file to be able to run it using the command: chmod +755 download_models.sh
+  * You may need to change the permission of the file to be able to run it using the commands:
+     * chmod +755 download_models.sh
+     * ./download_models.sh
 * Create an Image folder within the Data folder and place what ever image you like
 * Add command line arguments to the run command
      * First specify the relative path to the image from the code folder
