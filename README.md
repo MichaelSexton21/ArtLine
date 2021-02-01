@@ -9,7 +9,7 @@ This project uses deep learning to create line art pictures. The original readme
 * Select the most up to date Python Environment (3.7 or 3.8)
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
-* Set Artline_App_Panel.py to run
+* Set Artline.py to run
 * If you are on Saas, skip the next step and go to the downloading the models step
 * Open up the App Panel tab, you will need two inputs:
   * File Input: Image File Path (default: what ever you want)
@@ -25,7 +25,7 @@ This project uses deep learning to create line art pictures. The original readme
 * Select the Python (3.8.1, miniconda 4.8.2) environment
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
-* Set Artline_App_Panel.py to run
+* Set Artline.py to run
 * Use the two links below to download the models for 650 and 920 models to the code folder
   * I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
   * You may need to change the permission of the file to be able to run it using the command: chmod +755 download_models.sh
