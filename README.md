@@ -18,12 +18,7 @@ This project uses deep learning to create line art pictures. The original readme
   * I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
   * You may need to change the permission of the file to be able to run it using the command: chmod +755 download_models.sh
 * Create an Image folder within the Data folder and place what ever image you like
-* Run the project
-  * App Panel: specifiy your desired settings and press "Run with parameters" to begin
-  * Add command line arguments to the run command
-     * First specify the relative path to the image from the code folder
-     * Next specify the size of the output you want (650 or 920)
-     * Example: python -u Artline_App_Panel.py "../data/images/lion.jpg" 650
+* Run the project by specifiy your desired settings in the App Panel and press "Run with parameters" to begin
      
 ## Code Ocean Setup SaaS
 * Git clone this repository into a Capsule
@@ -35,12 +30,11 @@ This project uses deep learning to create line art pictures. The original readme
   * I recommend launching a CW station (Terminal or JupyterLab) and using the download_models.sh script I wrote to help
   * You may need to change the permission of the file to be able to run it using the command: chmod +755 download_models.sh
 * Create an Image folder within the Data folder and place what ever image you like
-* Run the project
-  * App Panel: specifiy your desired settings and press "Run with parameters" to begin
-  * Add command line arguments to the run command
+* Add command line arguments to the run command
      * First specify the relative path to the image from the code folder
      * Next specify the size of the output you want (650 or 920)
      * Example: python -u Artline_App_Panel.py "../data/images/lion.jpg" 650
+* Click "Reproducible Run"
 
 
 ## Model Download Links
