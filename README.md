@@ -18,7 +18,7 @@ This project uses deep learning to create line art pictures. The original readme
   * You may need to change the permission of the file to be able to run it using the commands:
      * chmod +755 download_models.sh
      * ./download_models.sh
-* Create an Image folder within the Data folder and place what ever image you like
+* In the data/image/ folder, place what ever image you like to alter here
 * Run the project by specifiy your desired settings in the App Panel and press "Run with parameters" to begin
      
 ## Code Ocean Setup SaaS
