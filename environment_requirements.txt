@@ -13,7 +13,7 @@ torch==1.6.0
 torchvision===0.7.0
 
 VPC Environment:
-Python (3.7.3, miniconda 4.7.10)
+Python (3.8.1, miniconda 4.8.2, jupyterlab 2.1.1)
 
 conda:
 channel==conda-forge
