@@ -32,7 +32,7 @@ This project uses deep learning to create line art pictures. The original readme
   * You may need to change the permission of the file to be able to run it using the commands:
      * chmod +755 download_models.sh
      * ./download_models.sh
-* Create an Image folder within the Data folder and place what ever image you like
+* In the data/image/ folder, place what ever image you like to alter here
 * Add command line arguments to the run command
      * First specify the relative path to the image from the code folder
      * Next specify the size of the output you want (650 or 920)
