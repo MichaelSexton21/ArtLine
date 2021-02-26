@@ -6,7 +6,9 @@ This project uses deep learning to create line art pictures. The original readme
 
 ## Code Ocean Setup
 * Git clone this repository into a Capsule
-* Select the "Python (3.8.1, miniconda 4.8.2, jupyterlab 2.1.1)" environment
+* Select the environment:
+  * Saas: "Python (3.8.1, miniconda 4.8.2)"
+  * VPC: "Python (3.8.1, miniconda 4.8.2, jupyterlab 2.1.1)"
 * A GPU environment is not needed for this capsule
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
