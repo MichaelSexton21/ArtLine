@@ -4,40 +4,28 @@ This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by M
 
 This project uses deep learning to create line art pictures. The original readme has been renamed to README_old.md and contains all of the deserved credit and acknowledgments.
 
-## Code Ocean Setup VPC
+## Code Ocean Setup
 * Git clone this repository into a Capsule
 * Select the "Python (3.8.1, miniconda 4.8.2, jupyterlab 2.1.1)" environment
+* A GPU environment is not needed for this capsule
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
 * Set Artline.py to run
-* Open up the App Panel tab, you will need two inputs:
-  * File Input: Image File Path (default: lion.png)
-  * List Input: Output Image Size (920 or 650) I recommend 650 so it runs faster
 * Use the two links below to download the models for 650 and 920 models to the code folder
   * I recommend launching a CW station (Terminal or JupyterLab) and using the code/download_models.sh script I wrote to help
-  * You may need to change the permission of the file to be able to run it using the commands:
+  * You need to change the permission of the file to be able to run it using the commands:
      * chmod +755 download_models.sh
      * ./download_models.sh
+* Open up the App Panel tab, you will need two inputs:
+  * File Input: Image File Path (default: lion.png)
+  * List Input: Output Image Size (920 or 650)
 * In the data/image/ folder, place what ever image you like to alter here
 * Run the project by specifiy your desired settings in the App Panel and press "Run with parameters" to begin
      
-## Code Ocean Setup SaaS
-* Git clone this repository into a Capsule
-* Select the "Python (3.8.1, miniconda 4.8.2)" environment
-* Move all the files except this file (README.md) into the code folder
-* Use the environment_requirements.txt file to build the environment
-* Set Artline.py to run
-* Use the two links below to download the models for 650 and 920 models to the code folder
-  * I recommend launching a CW station (Terminal or JupyterLab) and using the code/download_models.sh script I wrote to help
-  * You may need to change the permission of the file to be able to run it using the commands:
-     * chmod +755 download_models.sh
-     * ./download_models.sh
-* In the data/image/ folder, place what ever image you like to alter here
-* Add command line arguments to the run command
-     * First specify the relative path to the image from the code folder
-     * Next specify the size of the output you want (650 or 920)
-     * Example: python -u Artline.py "../data/images/lion.jpg" 650
-* Click "Reproducible Run"
+* If you wanted to run it using the command line/run file:
+  * First specify the relative path to the image from the code folder
+   * Next specify the size of the output you want (650 or 920)
+   * Example: python -u Artline.py "../data/images/lion.jpg" 650
 
 
 ## Model Download Links
