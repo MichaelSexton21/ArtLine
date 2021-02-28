@@ -5,12 +5,13 @@ This repo has been forked from Vijish Madhavan (vijishmadhavan) and altered by M
 This project uses deep learning to create line art pictures. The original readme has been renamed to README_old.md and contains all of the deserved credit and acknowledgments.
 
 ## Code Ocean Setup
-* Git clone this repository into a Capsule
+* Create a new capsule from this repository
 * Select the environment:
   * Saas: "Python (3.8.1, miniconda 4.8.2)"
   * VPC: "Python (3.8.1, miniconda 4.8.2, jupyterlab 2.1.1)"
-* A GPU environment is not needed for this capsule
-  * When you run the capsule you will recieve this error, "Found no NVIDIA driver on your system" but you can ignore it. The results do not change if you have a gpu or not.
+* A GPU environment is **not** needed for this capsule
+  * **[Warning] When you run the capsule you will recieve the following error. Please ignore it as the results do not change if you have a gpu or not.**
+  *   "UserWarning: CUDA initialization: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:100.)"
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
 * Set Artline.py to run
@@ -19,9 +20,9 @@ This project uses deep learning to create line art pictures. The original readme
   * You need to change the permission of the file to be able to run it using the commands:
      * chmod +755 download_models.sh
      * ./download_models.sh
-* Open up the App Panel tab, you will need two inputs:
-  * File Input: Image File Path (default: lion.png)
-  * List Input: Output Image Size (920 or 650)
+* Open up the App Panel tab, you will need to add two parameters:
+  * File parameter: Image File Path (default: lion.png)
+  * List parameter: Output Image Size (920 or 650 )
 * In the data/image/ folder, place what ever image you like to alter here
 * Run the project by specifiy your desired settings in the App Panel and press "Run with parameters" to begin
      
@@ -30,6 +31,8 @@ This project uses deep learning to create line art pictures. The original readme
    * Next specify the size of the output you want (650 or 920)
    * Example: python -u Artline.py "../data/images/lion.jpg" 650
 
+You need to add a new file later when running the App Panel with your own input image.
+The output image should be in the results folder as a file prefixed with "line..."
 
 ## Model Download Links
 Because the origional repository was not initalized with Github's Large File Storage I cannot add that funcitonality after I forked the repository so I have linked the two pretrained models here:
