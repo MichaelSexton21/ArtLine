@@ -10,6 +10,7 @@ This project uses deep learning to create line art pictures. The original readme
   * Saas: "Python (3.8.1, miniconda 4.8.2)"
   * VPC: "Python (3.8.1, miniconda 4.8.2, jupyterlab 2.1.1)"
 * A GPU environment is not needed for this capsule
+  * When you run the capsule you will recieve this error, "Found no NVIDIA driver on your system" but you can ignore it. The results do not change if you have a gpu or not.
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
 * Set Artline.py to run
