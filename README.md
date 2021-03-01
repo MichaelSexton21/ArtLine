@@ -7,9 +7,7 @@ This project uses deep learning to create line art pictures. The original readme
 ## Code Ocean Setup
 * Create a new capsule from this repository
   * If you are using Edge, make sure to create a new capsule with "Copy from Public Git" 
-* Select the environment:
-  * Saas: "Python (3.8.1, miniconda 4.8.2)"
-  * VPC: "Python (3.8.1, miniconda 4.8.2, jupyterlab 2.1.1)"
+* Build the environment
 * Move all the files except this file (README.md) into the code folder
 * Use the environment_requirements.txt file to build the environment
 * Set Artline.py to run
