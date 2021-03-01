@@ -8,8 +8,6 @@ This project uses deep learning to create line art pictures. The original readme
 * Create a new capsule from this repository
   * If you are using Edge, make sure to create a new capsule with "Copy from Public Git" 
 * Build the environment
-* Move all the files except this file (README.md) into the code folder
-* Use the environment_requirements.txt file to build the environment
 * Set Artline.py to run
 * Use the two links below to download the models for 650 and 920 models to the code folder
   * I recommend launching a CW station (Terminal or JupyterLab) and using the code/download_models.sh script I wrote to help
