@@ -6,6 +6,7 @@ This project uses deep learning to create line art pictures. The original readme
 
 ## Code Ocean Setup
 * Create a new capsule from this repository
+  * If you are using Edge, make sure to create a new capsule with "Copy from Public Git" 
 * Select the environment:
   * Saas: "Python (3.8.1, miniconda 4.8.2)"
   * VPC: "Python (3.8.1, miniconda 4.8.2, jupyterlab 2.1.1)"
